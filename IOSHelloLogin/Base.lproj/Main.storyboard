@@ -80,6 +80,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R1O-3L-8EY">
                                 <rect key="frame" x="128" y="440" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchRememberMe:" destination="BYZ-38-t0r" eventType="valueChanged" id="kP7-NZ-m9d"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNo-V8-iHW">
                                 <rect key="frame" x="198" y="445" width="112" height="21"/>
@@ -105,6 +108,8 @@
                     <navigationItem key="navigationItem" id="GVL-lW-j9G"/>
                     <connections>
                         <outlet property="lblWelcome" destination="lRy-Po-juq" id="9ee-Ox-34g"/>
+                        <outlet property="txtPassWord" destination="REg-ve-ikb" id="Zax-hv-3Qv"/>
+                        <outlet property="txtUserName" destination="aYS-x9-2Kb" id="iFC-4z-tle"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
